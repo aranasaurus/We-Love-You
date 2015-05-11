@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9434EAA41AFF9EF700B7C36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434EAA31AFF9EF700B7C36F /* AppDelegate.swift */; };
+		9434EAA61AFF9EF700B7C36F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434EAA51AFF9EF700B7C36F /* ViewController.swift */; };
+		9434EAA91AFF9EF700B7C36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9434EAA71AFF9EF700B7C36F /* Main.storyboard */; };
+		9434EAAB1AFF9EF700B7C36F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9434EAAA1AFF9EF700B7C36F /* Images.xcassets */; };
+		9434EAAE1AFF9EF700B7C36F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9434EAAC1AFF9EF700B7C36F /* LaunchScreen.xib */; };
+		9434EABA1AFF9EF800B7C36F /* We_Love_You_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434EAB91AFF9EF800B7C36F /* We_Love_You_Tests.swift */; };
+		94B0E09B1B00223A0040ADED /* LoveMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0E09A1B00223A0040ADED /* LoveMessage.swift */; };
+		94DE25E31AFFABBE005FF2A2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE25E21AFFABBE005FF2A2 /* ConfigViewController.swift */; };
+		94DE25EE1AFFF117005FF2A2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE25ED1AFFF117005FF2A2 /* InterfaceController.swift */; };
+		94DE25F01AFFF117005FF2A2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE25EF1AFFF117005FF2A2 /* NotificationController.swift */; };
+		94DE25F21AFFF117005FF2A2 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE25F11AFFF117005FF2A2 /* GlanceController.swift */; };
+		94DE25F81AFFF117005FF2A2 /* We Love You! WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 94DE25F71AFFF117005FF2A2 /* We Love You! WatchKit App.app */; };
+		94DE26001AFFF117005FF2A2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DE25FE1AFFF117005FF2A2 /* Interface.storyboard */; };
+		94DE26051AFFF117005FF2A2 /* We Love You! WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94DE25E81AFFF117005FF2A2 /* We Love You! WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94DE260D1AFFF19C005FF2A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9434EAAA1AFF9EF700B7C36F /* Images.xcassets */; };
+		94DE260E1AFFF19D005FF2A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9434EAAA1AFF9EF700B7C36F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9434EAB41AFF9EF800B7C36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9434EA961AFF9EF700B7C36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9434EA9D1AFF9EF700B7C36F;
+			remoteInfo = "We Love You!";
+		};
+		94DE25F91AFFF117005FF2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9434EA961AFF9EF700B7C36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94DE25F61AFFF117005FF2A2;
+			remoteInfo = "We Love You! WatchKit App";
+		};
+		94DE26031AFFF117005FF2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9434EA961AFF9EF700B7C36F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94DE25E71AFFF117005FF2A2;
+			remoteInfo = "We Love You! WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94DE260C1AFFF117005FF2A2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				94DE26051AFFF117005FF2A2 /* We Love You! WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9434EA9E1AFF9EF700B7C36F /* We Love You!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Love You!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9434EAA21AFF9EF700B7C36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9434EAA31AFF9EF700B7C36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9434EAA51AFF9EF700B7C36F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9434EAA81AFF9EF700B7C36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9434EAAA1AFF9EF700B7C36F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../We Love You!/Images.xcassets"; sourceTree = "<group>"; };
+		9434EAAD1AFF9EF700B7C36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9434EAB31AFF9EF800B7C36F /* We Love You!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "We Love You!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9434EAB81AFF9EF800B7C36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9434EAB91AFF9EF800B7C36F /* We_Love_You_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = We_Love_You_Tests.swift; sourceTree = "<group>"; };
+		94B0E09A1B00223A0040ADED /* LoveMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveMessage.swift; sourceTree = "<group>"; };
+		94DE25E21AFFABBE005FF2A2 /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		94DE25E81AFFF117005FF2A2 /* We Love You! WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "We Love You! WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DE25EB1AFFF117005FF2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DE25EC1AFFF117005FF2A2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		94DE25ED1AFFF117005FF2A2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		94DE25EF1AFFF117005FF2A2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		94DE25F11AFFF117005FF2A2 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		94DE25F71AFFF117005FF2A2 /* We Love You! WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Love You! WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DE25FD1AFFF117005FF2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DE25FF1AFFF117005FF2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9434EA9B1AFF9EF700B7C36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9434EAB01AFF9EF800B7C36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DE25E51AFFF117005FF2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9434EA951AFF9EF700B7C36F = {
+			isa = PBXGroup;
+			children = (
+				9434EAA01AFF9EF700B7C36F /* We Love You! */,
+				9434EAB61AFF9EF800B7C36F /* We Love You!Tests */,
+				94DE25E91AFFF117005FF2A2 /* We Love You! WatchKit Extension */,
+				94DE25FB1AFFF117005FF2A2 /* We Love You! WatchKit App */,
+				9434EA9F1AFF9EF700B7C36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9434EA9F1AFF9EF700B7C36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9434EA9E1AFF9EF700B7C36F /* We Love You!.app */,
+				9434EAB31AFF9EF800B7C36F /* We Love You!Tests.xctest */,
+				94DE25E81AFFF117005FF2A2 /* We Love You! WatchKit Extension.appex */,
+				94DE25F71AFFF117005FF2A2 /* We Love You! WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9434EAA01AFF9EF700B7C36F /* We Love You! */ = {
+			isa = PBXGroup;
+			children = (
+				9434EAA31AFF9EF700B7C36F /* AppDelegate.swift */,
+				9434EAA51AFF9EF700B7C36F /* ViewController.swift */,
+				9434EAA71AFF9EF700B7C36F /* Main.storyboard */,
+				9434EAAC1AFF9EF700B7C36F /* LaunchScreen.xib */,
+				9434EAA11AFF9EF700B7C36F /* Supporting Files */,
+				94DE25E21AFFABBE005FF2A2 /* ConfigViewController.swift */,
+			);
+			path = "We Love You!";
+			sourceTree = "<group>";
+		};
+		9434EAA11AFF9EF700B7C36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9434EAA21AFF9EF700B7C36F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9434EAB61AFF9EF800B7C36F /* We Love You!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9434EAB91AFF9EF800B7C36F /* We_Love_You_Tests.swift */,
+				9434EAB71AFF9EF800B7C36F /* Supporting Files */,
+			);
+			path = "We Love You!Tests";
+			sourceTree = "<group>";
+		};
+		9434EAB71AFF9EF800B7C36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9434EAB81AFF9EF800B7C36F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94DE25E91AFFF117005FF2A2 /* We Love You! WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				94DE25ED1AFFF117005FF2A2 /* InterfaceController.swift */,
+				94DE25EF1AFFF117005FF2A2 /* NotificationController.swift */,
+				94DE25F11AFFF117005FF2A2 /* GlanceController.swift */,
+				94B0E09A1B00223A0040ADED /* LoveMessage.swift */,
+				94DE25EA1AFFF117005FF2A2 /* Supporting Files */,
+			);
+			path = "We Love You! WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		94DE25EA1AFFF117005FF2A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94DE25EB1AFFF117005FF2A2 /* Info.plist */,
+				94DE25EC1AFFF117005FF2A2 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94DE25FB1AFFF117005FF2A2 /* We Love You! WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9434EAAA1AFF9EF700B7C36F /* Images.xcassets */,
+				94DE25FE1AFFF117005FF2A2 /* Interface.storyboard */,
+				94DE25FC1AFFF117005FF2A2 /* Supporting Files */,
+			);
+			path = "We Love You! WatchKit App";
+			sourceTree = "<group>";
+		};
+		94DE25FC1AFFF117005FF2A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94DE25FD1AFFF117005FF2A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9434EA9D1AFF9EF700B7C36F /* We Love You! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9434EABD1AFF9EF800B7C36F /* Build configuration list for PBXNativeTarget "We Love You!" */;
+			buildPhases = (
+				9434EA9A1AFF9EF700B7C36F /* Sources */,
+				9434EA9B1AFF9EF700B7C36F /* Frameworks */,
+				9434EA9C1AFF9EF700B7C36F /* Resources */,
+				94DE260C1AFFF117005FF2A2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94DE26041AFFF117005FF2A2 /* PBXTargetDependency */,
+			);
+			name = "We Love You!";
+			productName = "We Love You!";
+			productReference = 9434EA9E1AFF9EF700B7C36F /* We Love You!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9434EAB21AFF9EF800B7C36F /* We Love You!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9434EAC01AFF9EF800B7C36F /* Build configuration list for PBXNativeTarget "We Love You!Tests" */;
+			buildPhases = (
+				9434EAAF1AFF9EF800B7C36F /* Sources */,
+				9434EAB01AFF9EF800B7C36F /* Frameworks */,
+				9434EAB11AFF9EF800B7C36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9434EAB51AFF9EF800B7C36F /* PBXTargetDependency */,
+			);
+			name = "We Love You!Tests";
+			productName = "We Love You!Tests";
+			productReference = 9434EAB31AFF9EF800B7C36F /* We Love You!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94DE25E71AFFF117005FF2A2 /* We Love You! WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DE26091AFFF117005FF2A2 /* Build configuration list for PBXNativeTarget "We Love You! WatchKit Extension" */;
+			buildPhases = (
+				94DE25E41AFFF117005FF2A2 /* Sources */,
+				94DE25E51AFFF117005FF2A2 /* Frameworks */,
+				94DE25E61AFFF117005FF2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94DE25FA1AFFF117005FF2A2 /* PBXTargetDependency */,
+			);
+			name = "We Love You! WatchKit Extension";
+			productName = "We Love You! WatchKit Extension";
+			productReference = 94DE25E81AFFF117005FF2A2 /* We Love You! WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		94DE25F61AFFF117005FF2A2 /* We Love You! WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DE26061AFFF117005FF2A2 /* Build configuration list for PBXNativeTarget "We Love You! WatchKit App" */;
+			buildPhases = (
+				94DE25F51AFFF117005FF2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "We Love You! WatchKit App";
+			productName = "We Love You! WatchKit App";
+			productReference = 94DE25F71AFFF117005FF2A2 /* We Love You! WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9434EA961AFF9EF700B7C36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = aranasaurus;
+				TargetAttributes = {
+					9434EA9D1AFF9EF700B7C36F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9434EAB21AFF9EF800B7C36F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9434EA9D1AFF9EF700B7C36F;
+					};
+					94DE25E71AFFF117005FF2A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					94DE25F61AFFF117005FF2A2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JCYYKWU6KX;
+					};
+				};
+			};
+			buildConfigurationList = 9434EA991AFF9EF700B7C36F /* Build configuration list for PBXProject "We Love You!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9434EA951AFF9EF700B7C36F;
+			productRefGroup = 9434EA9F1AFF9EF700B7C36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9434EA9D1AFF9EF700B7C36F /* We Love You! */,
+				9434EAB21AFF9EF800B7C36F /* We Love You!Tests */,
+				94DE25E71AFFF117005FF2A2 /* We Love You! WatchKit Extension */,
+				94DE25F61AFFF117005FF2A2 /* We Love You! WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9434EA9C1AFF9EF700B7C36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9434EAA91AFF9EF700B7C36F /* Main.storyboard in Resources */,
+				9434EAAE1AFF9EF700B7C36F /* LaunchScreen.xib in Resources */,
+				9434EAAB1AFF9EF700B7C36F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9434EAB11AFF9EF800B7C36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DE25E61AFFF117005FF2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DE260E1AFFF19D005FF2A2 /* Images.xcassets in Resources */,
+				94DE25F81AFFF117005FF2A2 /* We Love You! WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DE25F51AFFF117005FF2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DE26001AFFF117005FF2A2 /* Interface.storyboard in Resources */,
+				94DE260D1AFFF19C005FF2A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9434EA9A1AFF9EF700B7C36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9434EAA61AFF9EF700B7C36F /* ViewController.swift in Sources */,
+				9434EAA41AFF9EF700B7C36F /* AppDelegate.swift in Sources */,
+				94DE25E31AFFABBE005FF2A2 /* ConfigViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9434EAAF1AFF9EF800B7C36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9434EABA1AFF9EF800B7C36F /* We_Love_You_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DE25E41AFFF117005FF2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DE25F01AFFF117005FF2A2 /* NotificationController.swift in Sources */,
+				94DE25EE1AFFF117005FF2A2 /* InterfaceController.swift in Sources */,
+				94DE25F21AFFF117005FF2A2 /* GlanceController.swift in Sources */,
+				94B0E09B1B00223A0040ADED /* LoveMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9434EAB51AFF9EF800B7C36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9434EA9D1AFF9EF700B7C36F /* We Love You! */;
+			targetProxy = 9434EAB41AFF9EF800B7C36F /* PBXContainerItemProxy */;
+		};
+		94DE25FA1AFFF117005FF2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94DE25F61AFFF117005FF2A2 /* We Love You! WatchKit App */;
+			targetProxy = 94DE25F91AFFF117005FF2A2 /* PBXContainerItemProxy */;
+		};
+		94DE26041AFFF117005FF2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94DE25E71AFFF117005FF2A2 /* We Love You! WatchKit Extension */;
+			targetProxy = 94DE26031AFFF117005FF2A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9434EAA71AFF9EF700B7C36F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9434EAA81AFF9EF700B7C36F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9434EAAC1AFF9EF700B7C36F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9434EAAD1AFF9EF700B7C36F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		94DE25FE1AFFF117005FF2A2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DE25FF1AFFF117005FF2A2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9434EABB1AFF9EF800B7C36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9434EABC1AFF9EF800B7C36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9434EABE1AFF9EF800B7C36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "We Love You!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9434EABF1AFF9EF800B7C36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "We Love You!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9434EAC11AFF9EF800B7C36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "We Love You!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/We Love You!.app/We Love You!";
+			};
+			name = Debug;
+		};
+		9434EAC21AFF9EF800B7C36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "We Love You!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/We Love You!.app/We Love You!";
+			};
+			name = Release;
+		};
+		94DE26071AFFF117005FF2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = We_Love_You__WatchKit_Extension;
+				INFOPLIST_FILE = "We Love You! WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		94DE26081AFFF117005FF2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = We_Love_You__WatchKit_Extension;
+				INFOPLIST_FILE = "We Love You! WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		94DE260A1AFFF117005FF2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "We Love You! WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94DE260B1AFFF117005FF2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "We Love You! WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9434EA991AFF9EF700B7C36F /* Build configuration list for PBXProject "We Love You!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9434EABB1AFF9EF800B7C36F /* Debug */,
+				9434EABC1AFF9EF800B7C36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9434EABD1AFF9EF800B7C36F /* Build configuration list for PBXNativeTarget "We Love You!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9434EABE1AFF9EF800B7C36F /* Debug */,
+				9434EABF1AFF9EF800B7C36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9434EAC01AFF9EF800B7C36F /* Build configuration list for PBXNativeTarget "We Love You!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9434EAC11AFF9EF800B7C36F /* Debug */,
+				9434EAC21AFF9EF800B7C36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DE26061AFFF117005FF2A2 /* Build configuration list for PBXNativeTarget "We Love You! WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DE26071AFFF117005FF2A2 /* Debug */,
+				94DE26081AFFF117005FF2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DE26091AFFF117005FF2A2 /* Build configuration list for PBXNativeTarget "We Love You! WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DE260A1AFFF117005FF2A2 /* Debug */,
+				94DE260B1AFFF117005FF2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9434EA961AFF9EF700B7C36F /* Project object */;
+}
